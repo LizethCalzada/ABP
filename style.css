@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('Portada.png');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(188, 225, 250);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(225, 245, 245);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 180px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.game {
+    width: 210px;
+    border: 2px solid #14b3be;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    cursor: pointer;
+    background-color: rgba(156, 240, 235, 0.932);
+}
+
+.game:hover {
+    transform: scale(1.05);
+}
+
+.game img {
+    width: 70%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.game h2 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #0f0f0f;
+    text-shadow: none;
+}
+
+.back-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: rgb(54, 219, 197);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #111111;
+}

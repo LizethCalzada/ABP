@@ -1,0 +1,59 @@
+body{
+background: rgb(139, 205, 248);
+background: linear-gradient(90deg, rgb(176, 212, 233) 0%, rgb(136, 201, 253) 50%,rgb(139, 212, 241)) 100%;
+font-family: sans-serif;
+color: rgb(247, 242, 242);
+}
+main{
+    width: 730px;
+    margin: 100px auto 50px;
+    display: flex;
+    align-items: center;
+}
+.section1{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+}
+h1{
+    color: rgb(108, 118, 252);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: rgb(252, 99, 99);
+    font-weight: bold;
+ 
+}
+button:hover{
+    cursor: pointer;
+}
+.section2{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 250px;
+    height: 400px;
+    padding: 0 20px;
+}
+.estadisticas{
+    border: 1px solid white;
+    height: 105px;
+    border-radius: 8px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+}
+footer{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
